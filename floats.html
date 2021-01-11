@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width:800px;
+  margin: 0 auto;
+  background: blue;
+  padding: 20px 0;
+}
+
+header {
+  width: 800px;
+  height: 60px;
+  background: #6b35b3;
+  padding: 20px 0;
+}
+
+header li {
+  display: inline-block;
+  padding: 0 20px;
+  color: #000;
+  height: 20px;
+  background: cyan;
+}
+
+header li:hover {
+  text-decoration: underline;
+  height: 30px;
+  cursor: pointer;
+}
+
+h1, p  {
+  text-align: center;
+  color: #fff;
+  font-size: 24px;
+}
+
+
+.content {
+  background: burlywood;
+  overflow: auto;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+
+article {
+  width: 580px;
+  height: 300px;
+  background: rgba(0, 0, 0, 0.5);
+  float: left;
+  position: relative;
+  z-index: 2;
+}
+ 
+aside {
+  width: 200px;
+  height: 300px;
+  background: #ccc;
+  float: left;
+  margin-left: 20px;
+}
+
+.teste {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background: pink;
+  text-align: center;
+  top: 50px;
+  left: -10px;
+  z-index: 1;
+}
+
+footer {
+  width: 800px;
+  height: 60px;
+  background: #f02430;
+  padding: 20px 0;
+  clear: both;
+}
+
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Header</h1>
+
+      <ul>
+        <li>oi</li>
+        <li>to</li>
+        <li>q?</li>
+      </ul>
+    </header>
+
+    <div class="content">
+      <article>
+        <p>conteudo</p>
+      </article>
+      <div class="teste">x</div>
+  
+      <aside>
+        <p>sidebar</p>
+      </aside>
+    </div>
+
+    <footer>
+      <p>footer</p>
+    </footer>
+</div>
+</body>
+</html>
