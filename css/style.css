@@ -86,6 +86,9 @@ img {
   border-bottom: 1px solid #fff;
 }
 
+.header-menu ul li a.menu-ativo {
+  color: #fff
+}
 
 /** Intro **/
 .introducao {
